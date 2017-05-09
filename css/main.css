@@ -101,21 +101,30 @@ body{
 }
 
 
-}
+
 #coeur{
     margin-top: 4em;
     text-align: center;
 
 }
 
+h2{
+   font-family: 'Anton', sans-serif;
+}
+
    
 .clic{
     margin-top: 2em;
+    width: 550px;
+    margin: auto;
 }
 
 
 
-
+.clic:hover{
+    border: solid white 1px;
+    color: green:
+}
 
 
 
