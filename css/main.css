@@ -159,7 +159,7 @@ header a:hover{
 
 }
 
-button,.fix{
+.fix{
     margin-left: 1em;
     position: fixed;
 }
