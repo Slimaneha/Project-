@@ -95,6 +95,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+    background-color: black;
+    color: white;
+}
+
+
+}
+#coeur{
+    margin-top: 4em;
+    text-align: center;
+
+}
+
+   
+.clic{
+    margin-top: 2em;
+}
+
+
+
 
 
 
