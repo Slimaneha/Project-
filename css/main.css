@@ -95,38 +95,101 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body{
-    background-color: black;
+
+#pc{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:980px){
+
+#pc{
+    display: block;
+}
+
+    
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
     color: white;
 }
 
+header a{
 
+    color: white;
+}
+header a:hover{
+    color: green;
+    border-bottom: solid 2px black;
+}
 
-#coeur{
+#contenu{
     margin-top: 4em;
     text-align: center;
-
-}
-
-h2{
-   font-family: 'Anton', sans-serif;
-}
-
    
-.clic{
-    margin-top: 2em;
-    width: 550px;
-    margin: auto;
+}
+#contenu h2,h3{
+     font-family: 'Arvo', serif;
+     margin-bottom: 2em;
+     border-bottom: 2px solid black;
+
 }
 
-
-
-.clic:hover{
-    border: solid white 1px;
-    color: green:
+button,.fix{
+    margin-left: 1em;
+    position: fixed;
 }
 
+.bo{
+    border-radius: 8px;
+}
 
+.formation{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.formation ul {
+    text-align: center;
+    list-style: none;
+    margin-left: 7em;
+}
+.formation li {
+    margin-bottom: 5px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Arvo', serif;
+
+}
+}
 
 
 
