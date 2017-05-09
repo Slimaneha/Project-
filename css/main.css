@@ -160,8 +160,20 @@ header a:hover{
 }
 
 .fix{
+    
     margin-left: 1em;
     position: fixed;
+}
+.button ul {
+    display: flex;
+    
+}
+.button li {
+    list-style: none;
+    margin-bottom: 4px;
+}
+button{
+    width: 154px;
 }
 
 .bo{
