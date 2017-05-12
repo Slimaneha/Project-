@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 
-#pc{
+#pc,.button {
     display: none;
 }
 
@@ -125,6 +125,10 @@ textarea {
 
 @media (min-width:980px){
 
+
+#mobile{
+    display: none;
+}
 #pc{
     display: block;
 }
@@ -157,6 +161,10 @@ header a:hover{
      margin-bottom: 2em;
      border-bottom: 2px solid black;
 
+}
+
+th{   
+    text-align: center;
 }
 
 .fix{
