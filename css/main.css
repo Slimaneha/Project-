@@ -101,10 +101,14 @@ textarea {
 }
 
 
+p{
+   
+    padding-bottom:1em; 
+    }
 
-
-
-
+h1{
+    font-family: 'Inknut Antiqua', serif;
+}
 
 
 
@@ -129,8 +133,9 @@ textarea {
 #mobile{
     display: none;
 }
-#pc{
+#pc,.button{
     display: block;
+    font-family: 'Inknut Antiqua', serif;
 }
 
     
