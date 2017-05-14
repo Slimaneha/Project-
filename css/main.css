@@ -110,9 +110,11 @@ h1{
     font-family: 'Inknut Antiqua', serif;
 }
 
+/*--------------- Pages contact -------------------*/
 
-
-
+#contact,h3 {
+    text-align: center;
+}
 
 
 
