@@ -145,10 +145,44 @@ label{
 }
  .button-1{
      margin-bottom: 1em;
-     justify-content: center:
+     justify-content: center;
  }
 
 /*----------------- Fin Pages Contact Rules css -------*/
+/*------------------- Pages Rendue rules css Start ----------*/
+
+.rendu-1{
+    text-align: center;
+    justify-content: center;
+}
+
+#handibus{
+    width: 80%;
+    height: 50%;
+    margin-left: 5em;
+
+}
+
+#rendu-2{
+    font-size: 19px;
+    font-family: 'Lobster', cursive;
+    border: solid 1px black;
+    background-color: #82FA58;
+    color: black;
+}
+
+.card{
+    margin-left: 2em;
+    margin-bottom:2em;
+    text-align: center;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+}
+.card-text {
+    
+}
+
 
 @media (min-width:980px) {
     #mobile {
