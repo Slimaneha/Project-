@@ -125,13 +125,28 @@ h3 {
     text-align: center;
 }
 .form-control {
-    width: 500px;
-    margin-left: 12px;
+    width: 700px;
+    
     text-align: center; 
+    font-family: 'Fjalla One', sans-serif;
+
+    
 }
 .form-group{
+    font-family: 'Fjalla One', sans-serif;
+    width: 700px;
     text-align: center;
 }
+label{
+    text-align:center;
+}
+.meagges{
+    height: 100px;
+}
+ .button-1{
+     margin-bottom: 1em;
+     justify-content: center:
+ }
 
 /*----------------- Fin Pages Contact Rules css -------*/
 
