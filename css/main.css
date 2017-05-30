@@ -119,10 +119,15 @@ h1 {
 
 
 /*--------------- Pages contact -------------------*/
-
+.contact-img{
+    width: 100%;
+    height: 30%;
+    margin-left: 3em;
+}
 #contact,
 h3 {
     text-align: center;
+    font-family: 'Noto Serif', serif;
 }
 .form-control {
     width: 700px;
@@ -150,6 +155,10 @@ label{
 
 /*----------------- Fin Pages Contact Rules css -------*/
 /*------------------- Pages Rendue rules css Start ----------*/
+
+.rendu-1 h2 , .rendu-1 h4{      
+    font-family: 'Noto Serif', serif;
+}
 
 .rendu-1{
     text-align: center;
@@ -179,11 +188,14 @@ label{
     height: 80%;
     justify-content: center;
 }
-.card-text {
-    
+.img-card {
+    margin-top: 1em; 
+    margin-right: 1em;
+    width: 75%;
+    height: 75%;
 }
 
-
+/*--------------------------- Fin Rules rendu ------------------*/
 @media (min-width:980px) {
     #mobile {
         display: none;
