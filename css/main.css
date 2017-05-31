@@ -118,6 +118,14 @@ textarea {
     width: 350px;
     
 }
+.pincipal-1{
+    display: flex;
+
+}
+.pincipal-2{
+    width: 30%;
+
+}
 
 .border{
     text-align: center;
@@ -236,7 +244,6 @@ label{
         font-family: 'Inknut Antiqua', serif;
     }
 }
-
 header nav ul {
     display: flex;
     justify-content: space-around;
@@ -247,6 +254,8 @@ header nav ul {
 header a {
     color: white;
 }
+/*----------------------- Fin de nav -----------------------------*/
+
 
 header a:hover {
     color:white;
