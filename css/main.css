@@ -103,6 +103,36 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*------------------- Strat rules For index.html -----------*/
+.center{
+    margin-top: 3em;
+    text-align: center;
+    border-bottom: solid 2px #2E2E2E;
+}
+.centre button {
+    margin-bottom: 2em;
+}
+.grand{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 350px;
+    
+}
+
+.border{
+    text-align: center;
+    border: #82FA58 solid 2px;
+}
+.principal{
+    color: white;
+    background-color: #585858;
+    background-repeat: no-repeat;
+    
+}
+.margin{
+    margin-bottom: 3em;
+
+}
 
 #pc,
 .button {
