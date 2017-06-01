@@ -103,44 +103,123 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
 /*------------------- Strat rules For index.html -----------*/
-.center{
+
+.slide {
+    height: 50%;
+    width: 100%;
+}
+
+.center {
     margin-top: 3em;
     text-align: center;
     border-bottom: solid 2px #2E2E2E;
 }
+
 .centre button {
     margin-bottom: 2em;
 }
-.grand{
+
+.grand {
+    
     margin-top: 1em;
     margin-bottom: 1em;
-    width: 350px;
+    width: 250px;
+}
+.gran{
+    animation-name: boutton;
+    animation-duration: 10s infinite;
+
+}
+
+.animation ul li button{
+    animation-name:effect;
+    animation-duration: 15s ; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes effect
+{
+    form{
+        width: 20%;
+        background-color: red
+
+    }
+    25%{
+        width: 35%;
+        background-color: orangered
+    }
+
+    50%{
+        width: 50%;
+        background-color: lightgreen
+        
+    }
+   
+
+    to{
+
+        width: 100%;
     
+
+        background-color: #00FF00;
+    
+    }
+
 }
-.pincipal-1{
+
+
+
+
+.pincipal-1 {
+    margin-top: 3em;
     display: flex;
-
+    align-items: center;
 }
+
 .pincipal-2{
-    height: 45%;
-    width: 30%;
-
+    margin-top: 3em;
+}
+.pincipal-2 ul {
+    list-style: none;
 }
 
-.border{
+.pincipal-2 h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 25px;
+    animation-name: slim;
+    animation-duration: 15s;
+}
+
+
+
+.img-cart {
+    animation-name: cart;
+    animation-duration: 25s;
+    margin-bottom: 1em;
+    justify-content: center;
+    text-align: center;
+    height: 60%;
+    width: 80%;
+}
+
+
+.border {
     text-align: center;
     border: #82FA58 solid 2px;
 }
-.principal{
+
+.principal {
     color: white;
     background-color: #585858;
     background-repeat: no-repeat;
-    
 }
-.margin{
-    margin-bottom: 3em;
 
+.margin {
+    margin-bottom: 3em;
 }
 
 #pc,
@@ -158,60 +237,81 @@ h1 {
 
 
 /*--------------- Pages contact -------------------*/
-.contact-img{
+
+.contact-img {
     width: 100%;
     height: 30%;
     margin-left: 3em;
 }
+
 #contact,
 h3 {
     text-align: center;
     font-family: 'Noto Serif', serif;
 }
+
 .form-control {
     width: 700px;
-    
-    text-align: center; 
+    text-align: center;
     font-family: 'Fjalla One', sans-serif;
-
-    
 }
-.form-group{
+
+.form-group {
     font-family: 'Fjalla One', sans-serif;
     width: 700px;
     text-align: center;
 }
-label{
-    text-align:center;
+
+label {
+    text-align: center;
 }
-.meagges{
+
+.meagges {
     height: 100px;
 }
- .button-1{
-     margin-bottom: 1em;
-     justify-content: center;
- }
+
+.button-1 {
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
 
 /*----------------- Fin Pages Contact Rules css -------*/
+
+
 /*------------------- Pages Rendue rules css Start ----------*/
 
-.rendu-1 h2 , .rendu-1 h4{      
+.rendu-1 h2,
+.rendu-1 h4 {
     font-family: 'Noto Serif', serif;
 }
 
-.rendu-1{
+.rendu-1 h2 {
+    animation-name: slim2;
+    animation-duration: 2s;
+}
+
+@keyframes slim2 {
+    from {
+        width: 90%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.rendu-1 {
     text-align: center;
     justify-content: center;
 }
 
-#handibus{
+#handibus {
     width: 80%;
     height: 50%;
     margin-left: 5em;
-
 }
 
-#rendu-2{
+#rendu-2 {
     font-size: 19px;
     font-family: 'Lobster', cursive;
     border: solid 1px black;
@@ -219,22 +319,25 @@ label{
     color: black;
 }
 
-.card{
+.card {
     margin-left: 2em;
-    margin-bottom:2em;
+    margin-bottom: 2em;
     text-align: center;
     width: 100%;
     height: 80%;
     justify-content: center;
 }
+
 .img-card {
-    margin-top: 1em; 
+    margin-top: 1em;
     margin-right: 1em;
     width: 75%;
     height: 75%;
 }
 
+
 /*--------------------------- Fin Rules rendu ------------------*/
+
 @media (min-width:980px) {
     #mobile {
         display: none;
@@ -245,6 +348,7 @@ label{
         font-family: 'Inknut Antiqua', serif;
     }
 }
+
 header nav ul {
     display: flex;
     justify-content: space-around;
@@ -255,11 +359,12 @@ header nav ul {
 header a {
     color: white;
 }
+
+
 /*----------------------- Fin de nav -----------------------------*/
 
-
 header a:hover {
-    color:white;
+    color: white;
     border-bottom: solid 2px black;
 }
 
@@ -322,6 +427,8 @@ h1 {
     text-align: center;
     font-family: 'Arvo', serif;
 }
+
+
 }
 
 /* ==========================================================================
